@@ -1,0 +1,12 @@
+.num-box {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: calc(100% + 18%);
+    left: calc(-18% / 2);
+    height: 40px;
+    top: calc(50% - 40px/2);
+    font-weight: 600;
+}
