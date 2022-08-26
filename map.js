@@ -7,8 +7,10 @@ function toWeirdCase(string){
             if(j % 2 == 0) {
             // 짝수번째 인덱스 -> 대문자
             return al.toUpperCase()
-        } else {
+            } else {
             return al.toLowerCase()
         }})
-        fullName += ' ' + newSpl.join('')})
-        return fullName.trim()}
+        fullName += ' ' + newSpl.join('')
+    })
+        return fullName.trim()
+    }
